@@ -1,0 +1,88 @@
+<style>
+
+        @media (max-width: 1700px) {
+            .theme-btn, .theme-btn2, .header-area .header-contact-info .phone-number, .header-area .navbar-wrapper ul li a {
+                font-size: 13px;
+                color: white !important;
+            }
+        }
+        @media (max-width: 1345px) {
+            .theme-btn, .theme-btn2, .header-area .header-contact-info .phone-number, .header-area .navbar-wrapper ul li a {
+                font-size: 13px;
+                color: #000000 !important;
+            }
+        }
+        
+            .header-area {
+                border-bottom: 1px solid #d9d9d9;
+                /* padding: 26px 0; */
+                position: sticky;
+                top: 0;
+                z-index: 1024;
+                background: #000000;
+            }
+
+            /*  .header-area .navbar-wrapper ul li.dropdown-menu-item a, .header-area .navbar-wrapper ul li.mega-menu-item a {
+                padding-right: 16px;
+                color: white;
+            }*/
+
+
+            .theme-btn2, .theme-btn {
+                /*  font-size: 18px;
+            font-weight: 400;*/
+                color: #ffffff;
+                background: #e4bc30;
+                display: inline-flex;
+                align-items: center;
+                padding: 13px 26px;
+                border-radius: 30px;
+                position: relative;
+                cursor: pointer;
+                transition: .3s;
+                z-index: 1;
+                overflow: hidden;
+                text-decoration: none !important;
+                gap: 10px;
+            }
+
+
+            .header-area .header-contact-info .phone-number a {
+                display: block;
+                color: #f5f7fb;
+                /*font-weight: 700;
+            letter-spacing: 0.5px;
+            font-size: 16px;
+            margin-bottom: 10px;*/
+            }
+
+            .header-area .header-contact-info .phone-number {
+                /*    font-size: 18px;
+            line-height: 1;
+            position: relative;
+            padding: 0 40px;
+            font-weight: 500;
+*/ color: white;
+            }
+
+            .header-area .navbar-wrapper ul li > .dropdown-menu li a {
+                font-size: 16px;
+                display: block;
+                padding: 8px 0 8px 0;
+                margin: 7px 0;
+                color: black !important;
+            }
+
+            .header-area .navbar-wrapper ul li.mega-menu-item > a:after, .header-area .navbar-wrapper ul li.dropdown-menu-item > a:after {
+                content: '';
+                border-left: 5px solid transparent;
+                border-top: 5px solid #fff;
+                border-right: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                position: absolute;
+                right: 0;
+                top: 7px;
+            }
+
+        
+    </style>
