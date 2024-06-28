@@ -518,7 +518,7 @@ img {
     color: var(--primary_color);
 }
 .header-area .navbar-wrapper ul li a {
-    color: var(--dark1);
+    color: #fff !important;
     font-size: 18px;
     font-weight: 500;
     position: relative;
